@@ -10,7 +10,7 @@ This project focuses on extracting structured information from legal land record
 
 * **JSON to Table :** The extracted JSON output is converted into a `pandas` DataFrame for further analysis or downstream processing.
 
-![img](workflow.png)
+![workflow](workflow.png)
 
 
 ## Repo Content
@@ -27,4 +27,4 @@ This repository contains the following files
     * `images/` : Contains land record images with annotated bounding boxes produced by the OCR model.
     * `jsons/` :  Contains structured JSON files with extracted information from the land records.
 
-5. `process_results.ipynb` : A notebook that consolidates all the extracted JSON files into a single table or pandas DataFrame for further analysis or export.
+5. `process_results.ipynb` : A notebook that consolidates all the extracted JSON files into a single table or pandas DataFrame for further analysis or export. The table of information extracted out of land records could be at found in [this](process_results.ipynb) file

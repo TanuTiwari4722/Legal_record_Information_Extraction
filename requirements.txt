@@ -1,0 +1,9 @@
+surya-ocr
+pandas
+numpy
+pdf2image
+matplotlib
+python-dotenv
+groq
+Pillow
+torch
